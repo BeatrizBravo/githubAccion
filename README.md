@@ -1,6 +1,6 @@
 # GithubAccion
 
-## my definition
+#### My definition
 GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows us to automate our:
 - build, 
 - test, and 
@@ -30,3 +30,14 @@ You can learn more about GitHub Actions by visiting their documentation page.
 1. create a new repositorio.
 2. create a folder called .github/workflows
 2. create a file with .yml extension inside 
+
+
+## tips
+- check the syntax if you have any error.
+- go to market place to find new way to improve your workflow.
+- In this repository I used ["Issues Translator"]( https://github.com/marketplace/actions/issues-translator)
+Here's our logo (hover to see the title text):
+
+### hand on action to see the result
+Example: 
+![alt Example that shows the result after each "issue" written in a language that is not English](https://github.com/BeatrizBravo/githubAccion/blob/main/issueBot.PNG)
