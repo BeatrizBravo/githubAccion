@@ -1,16 +1,16 @@
-name: issue translator
+name: 'issue-translator'
 #event 
-on:
-  issue:
-     types: [opend]
-  issue_comment:
-     types: [created]
+on: 
+  issue_comment: 
+    types: [created]
+  issues: 
+    types: [opened]
 # job
 jobs:
-  bluid:
-  #runners
-   runs-on: ubuntu-latest
-# steps
-  steps: 
-      # action  -> maketplace "Issues Translate Action"
-     - uses: usthe/issues-translate-action@v2.7
+  build:
+   #runners
+    runs-on: ubuntu-latest
+      # steps  
+    steps:
+       # action  -> maketplace "Issues Translate Action"
+      - uses: usthe/issues-translate-action@v2.7
