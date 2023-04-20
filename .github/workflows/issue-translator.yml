@@ -1,4 +1,4 @@
-name: 'issue-translator'
+name: Issues Translator
 #event 
 on: 
   issue_comment: 
@@ -13,4 +13,5 @@ jobs:
       # steps  
     steps:
        # action  -> maketplace "Issues Translate Action"
-      - uses: tomsun28/issues-translate-action@v2.6
+      - uses: dromara/issues-translate-action@v2.7
+
