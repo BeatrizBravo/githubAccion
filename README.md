@@ -38,6 +38,9 @@ You can learn more about GitHub Actions by visiting their documentation page.
 - In this repository I used ["Issues Translator"]( https://github.com/marketplace/actions/issues-translator)
 Here's our logo (hover to see the title text):
 
-### hand on action to see the result
+### hand on action to see the result:
+1. Create a new issue from the tab called Issues.
+2. go to the tab called Acctions to visualize the actions are happening in the repository.
 Example: 
 ![alt Example that shows the result after each "issue" written in a language that is not English](https://github.com/BeatrizBravo/githubAccion/blob/main/issueBot.PNG)
+![alt Example of actions"](https://github.com/BeatrizBravo/githubAccion/blob/main/actions.PNG)
