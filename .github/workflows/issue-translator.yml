@@ -13,4 +13,4 @@ jobs:
       # steps  
     steps:
        # action  -> maketplace "Issues Translate Action"
-      - uses: usthe/issues-translate-action@v2.7
+      - uses: tomsun28/issues-translate-action@v2.6
